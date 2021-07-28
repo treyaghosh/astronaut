@@ -26,9 +26,8 @@ function setup() {
 }
 
 function draw() {
-  background(255,255,255);
+  background(bg);
   createEdgeSprites();
-  //background.addImage(bg);
   if(keyDown("UP_ARROW")){
     astronaut.addAnimation("brushing",brush);
     astronaut.changeAnimation("brushing");
